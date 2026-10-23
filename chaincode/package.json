@@ -1,0 +1,11 @@
+{
+  "name": "chaincode",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo no tests"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.0"
+  }
+}

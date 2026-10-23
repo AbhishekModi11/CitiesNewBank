@@ -1,0 +1,13 @@
+{
+  "name": "drunix-citipay",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n frontend,backend \"npm --prefix frontend run dev\" \"npm --prefix backend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint && npm --prefix backend run lint",
+    "test": "npm --prefix frontend run test && npm --prefix backend run test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
